@@ -1,0 +1,25 @@
+1. npm install -g nodemon
+
+2. express cors
+>> https://enable-cors.org/server_expressjs.html
+>> https://github.com/expressjs/cors
+
+const cors = require('cors');
+app.use(cors());
+
+3. body-parser
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
+
+4. bcryptjs
+>> https://www.npmjs.com/package/bcryptjs
+>> https://github.com/kelektiv/node.bcrypt.js/
+   
+5. passport and passport-jwt
+>> https://www.npmjs.com/package/passport-jwt
+>> https://jonathanmh.com/express-passport-json-web-token-jwt-authentication-beginners/
+
+-------------------------------------------------------------------------------------------
+get code: https://github.com/bradtraversy/nodeauthapp
+-------------------------------------------------------------------------------------------
+
